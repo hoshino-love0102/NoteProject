@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>노트 웹</title>
+</head>
+<body>
+<div class="container">
+    <h1>노트 웹</h1>
+
+    <h3>노트 작성</h3>
+    <textarea id="noteContent" placeholder="노트 내용을 입력하세요"></textarea><br>
+    <button onclick="saveNote()">저장</button>
+    <div id="saveResult"></div>
+
+    <h3>노트 조회</h3>
+    <input type="number" id="noteId" placeholder="노트 ID 입력">
+    <button onclick="getNote()">조회</button>
+    <div id="noteResult"></div>
+
+    <h3>노트 삭제</h3>
+    <input type="number" id="deleteId" placeholder="노트 ID 입력">
+    <button onclick="deleteNote()">삭제</button>
+</div>
+
+<script src="note.js"></script>
+</body>
+</html>
