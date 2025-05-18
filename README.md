@@ -1,4 +1,4 @@
-# 🌸 Hoshino FanJoin
+# 🌸 Hoshino FanSite
 
 블루 아카이브의 타카나시 호시노 팬들을 위한 팬커뮤니티 웹사이트입니다.
 
